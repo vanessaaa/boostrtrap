@@ -1,0 +1,35 @@
+body{
+	background: grey;
+}
+.contenedor{
+	
+	width:1000px;
+	margin: 15px auto;
+}
+.menu-lista{
+list-style-type: none;
+margin: 8px;
+padding: 2px;
+}
+.menu-item{
+display: inline-block;
+}
+.menu-link{
+padding: 25px;
+border-radius: 15px; 
+text-decoration:none;
+}
+.menu-link:hover{
+text-decoration: underline;
+box-shadow: 12px 20px pink;
+transition: 0.5s;
+}
+nav{
+	text-align:center;
+}
+.menu-link{
+	font-size:25px; 
+	background: red;
+	color: white;
+}
+.menu-tem{
